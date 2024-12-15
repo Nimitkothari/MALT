@@ -105,7 +105,7 @@ Generated datasets are saved in JSON format:
 
 ### Prerequisites
 ```bash
-pip install langchain openai tqdm pydantic
+pip install langchain_groq tqdm pydantic
 ```
 
 ### Basic Usage
@@ -166,7 +166,7 @@ generator = TrainingDataGenerator(
 ```
 
 ## Limitations and Considerations
-- Requires OpenAI API key
+- Requires GROQ API key
 - Processing time increases with branching factor
 - API costs scale with number of evaluations
 - Memory usage grows with dataset size
